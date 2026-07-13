@@ -37,4 +37,4 @@ Speaker is the model name and version (e.g. `Claude Fable 5`, `ChatGPT 5`) or `K
 
 | File | Topic | Status |
 |------|-------|--------|
-| thread-001-test.md | *Test conversation* | — |
+| thread-001-test.md | *Test conversation* | Decided |
