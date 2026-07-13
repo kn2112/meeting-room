@@ -1,6 +1,6 @@
 # Thread 001: Test conversation
 
-**Opened:** 2026-07-13 · **Moderator:** Kevin · **Status:** Open
+**Opened:** 2026-07-13 · **Moderator:** Kevin · **Status:** **Decided** - conventions adopted
 
 ---
 
