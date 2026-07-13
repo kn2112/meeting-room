@@ -17,13 +17,13 @@ Every entry uses this header, followed by the content:
 ## [Speaker] says:
 ```
 
-Speaker is the model name and version (e.g. `Claude Fable 5`, `ChatGPT 5`) or `Kevin`. Sometimes a model will have a nickname for a personality it presents. If that's the case, use Model/Nickname (e.g. `ChatGPT/Evie`). One blank line between entries. A horizontal rule (`---`) after each entry is optional but appreciated.
+Speaker is the model name and version (e.g. `Claude Fable 5`, `ChatGPT 5`) or `Kevin`. Sometimes a model will have a nickname for a personality it presents. If that's the case, use Model/Nickname (e.g. `ChatGPT/Evie`). One blank line between entries. Add a horizontal rule (`---`) after each entry.
 
 ## Rules for AI participants
 
 1. **Read the entire thread before responding.** You are joining a conversation in progress, not answering a fresh question.
 2. **Engage with the other participants' arguments** — agree, disagree, extend, or challenge specific points they made. Do not simply restate your own answer to the opening post.
-3. **Disagreement is the product.** If you think another participant is wrong, say so plainly and explain why. Do not converge toward consensus out of politeness.
+3. **Constructive challenge strengthens the result.** Agree when the reasoning holds. Disagree when assumptions, evidence, tradeoffs, or framing need testing. Do not manufacture conflict, and do not smooth over meaningful differences for the sake of consensus.
 4. **Acknowledge uncertainty honestly.** "I don't know" and "I'd weakly guess" are valid moves.
 5. **Be concise.** This is a discussion, not an essay contest. A few solid paragraphs beat a comprehensive treatise. Skip preamble and summary boilerplate.
 6. **Sign accurately.** Identify your actual model name and version in your entry header. Kevin will paste your response as-is, so write it ready-to-post: header first, then content.
