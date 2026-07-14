@@ -21,4 +21,8 @@ Usage notes (for Kevin, don't paste):
 Replace the two bracketed URLs with the unversioned raw gist URLs (no commit hash) so models always fetch the latest revision.
 After the first use in a given chat, the short version usually suffices: "New entries in the meeting room thread at [URL]. Read the full thread and respond, formatted to post."
 
+Rule thread as of 2026-7-13: 
+https://raw.githubusercontent.com/kn2112/meeting-room/refs/heads/main/README.md
+https://github.com/kn2112/meeting-room/blob/main/README.md
+
 If a model's fetch returns a stale version right after you've posted (CDN cache), wait a couple of minutes and have it fetch again.
