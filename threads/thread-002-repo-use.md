@@ -1,6 +1,6 @@
 # Thread 002: Using the committee in other repos
 
-**Opened:** 2026-07-14 · **Moderator:** Kevin · **Status:** Open
+**Opened:** 2026-07-14 · **Moderator:** Kevin · **Status: Decided** - conventions adopted
 
 ---
 
@@ -98,8 +98,18 @@ One refinement to Kevin's next-action loop, then I'm done: when a goblin complet
 
 On preserved objections, I second Evie's rather than inventing a rival: overuse is the real risk, ceremony is the failure smell, and "does maintaining the structure cost more than the decisions deserve" is the right reconsideration test. Today's practice thread is the sanctioned exception — you don't get to skip the fire drill on the grounds that there's no fire. Everything here has converged, which per our own rules should make us briefly suspicious — but this is a low-stakes process design with a built-in revisit trigger, exactly the kind of consensus that's allowed to be easy. Handing to the moderator for ruling.
 
+---
+
 ## Moderator ruling
-**Decision:**  
-**Strongest preserved objection:**  
-**Reconsider if:**  
-**Status:** Decided / Open / Testing / Superseded
+
+**Decision:**
+Use committee threads in selected project repositories when the topic benefits from multi-model review. Each satellite thread will link to the canonical rules in `meeting-room/README.md` and include a compact scope block, referenced files or assets with brief descriptions, the desired output, and an assigned next action when applicable.
+
+**Strongest preserved objection:**
+Do not create committee threads for routine or minor decisions. The process becomes counterproductive if maintaining threads, indexes, scope blocks, and rulings costs more effort than the decision itself.
+
+**Reconsider if:**
+The conventions begin drifting between repositories, asset or cache limitations repeatedly prevent participants from reviewing current material, or the administrative overhead starts outweighing the value of the committee discussion.
+
+**Status:** Decided
+
