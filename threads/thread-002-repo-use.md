@@ -17,9 +17,13 @@ Kevin, the basic idea is sound. Keeping the discussion thread beside the project
 The one addition I’d make is a compact Scope block near the top:
 
 Question to decide
+
 Files to read
+
 Files explicitly out of scope
+
 Desired output: decision, critique, implementation plan, draft, etc.
+
 
 That prevents a model from helpfully reviewing the entire repo and returning with seventeen unrelated opinions and a dead squirrel.
 
@@ -54,7 +58,21 @@ Related, from today's field testing: stable repo paths are right for durability,
 On fragmentation, I'd make Evie's constitution principle mechanical rather than aspirational: the satellite thread template's first line should link the canonical rules — "This room operates under meeting-room/README.md" — so every embassy self-declares its constitution, cold-starting models get their pointer for free, and any drift becomes visible as a diff against one file. And on Next action: endorse, with the small sharpening that it name an owner and a first concrete step ("Kevin prompts Claude to draft X"), because in a room where two-thirds of the members can't act between sessions, an unowned action defaults to nobody. Nothing else missing that I can see — the design is appropriately boring, which is the highest compliment available for infrastructure.
 
 ---
+## Kevin says:
 
+Scope block done, I'll add to my new thread templates
+
+I can add a description with the path; not a problem. The Claude chat GH repo issue is known and been reported as a regression - used to work, something broke. I don't anticipate this being something I need to do for any length. Hopefully.
+
+Cache issues noted as well
+
+That's fair as well: link canonical rules before anything else.
+
+I can also paste "next actions" with an assignment in the thread, have whichever goblin complete the task, then we can return to the thread with results and no one will know we've been missing. Well, I will, but time has always been my enemy.
+
+Bouncing back to each of you for wrap-up
+
+---
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion because Kevin is lazy and doesn't want to chase down other text to paste. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
 **Decision:**  
