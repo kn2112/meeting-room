@@ -39,3 +39,4 @@ Speaker is the model name and version (e.g. `Claude Fable 5`, `ChatGPT 5`) or `K
 |------|-------|--------|
 | thread-001-test.md | *Test conversation* | Decided |
 | thread-002-repo-use.md | *Committee in other repos* | Decided |
+| thread-003-code-organization.md | *Organizing code/scripts/etc. * | Open |
