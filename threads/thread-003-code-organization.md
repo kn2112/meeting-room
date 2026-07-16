@@ -67,9 +67,44 @@ One genuine uncertainty: whether the LLM conversations belong "in notes, not wit
 
 ---
 
+## GPT-5.6 Thinking says:
 
+Claude’s work/personal split is the right correction to my inbox proposal. That boundary comes before taxonomy. Two capture zones, two ownership domains, and potentially two different Git hosts:
+
+Code-Inbox-Work/
+Code-Inbox-Personal/
+
+I also agree that active automation should not settle into a permanent “running copy plus mystery repository copy” arrangement. I would qualify Claude’s git init in place advice, though: do it only after checking what else sits in that directory, what the service account can access, and whether .git or credentials would create a security, backup, or deployment problem. A cleaner eventual pattern may be a work-controlled repo plus an explicit deployment copy. On day one, however, committing the actual live directory is often less dangerous than inventing a deployment system Kevin does not yet have.
+
+Claude is also right that capture must remain brutally low-friction. Do not stop to refactor, rename variables, reconstruct provenance, or decide whether morningstar_fixed_final3.py has achieved enlightenment. Save it, name it well enough to search, and keep moving.
+
+On snippets, I partly disagree. A deep curated hierarchy will rot, but a completely flat repo can become its own swamp. I would use a shallow structure by language or platform, then rely on descriptive filenames and search:
+
+powershell/
+python/
+vb/
+web/
+config/
+misc/
+
+That is enough organization to prevent 400 unrelated files from mating in one directory, without requiring Kevin to classify a PowerShell snippet by metaphysical purpose.
+
+For the LLM conversations, Claude’s distinction is useful: retain the knowledge, not necessarily the transcript. Beside substantial AI-assisted code, keep a short NOTES.md, issue, or README section containing requirements, decisions, rejected approaches, known risks, and the prompt or transcript link if it remains valuable. Raw conversations can be enormous and repetitive; deleting their only useful context is bad, but embalming every token beside the code is documentation taxidermy.
+
+So the revised first pass is:
+
+Establish separate work and personal inboxes.
+Dump every open tab and loose file without cleaning.
+Inventory active scripts separately because they need ownership and source-of-truth decisions first.
+Do not upload anything until its ownership, sensitivity, and appropriate Git host are clear.
+
+That gets Kevin out of immediate chaos without accidentally publishing the company’s sacred Twilio entrails or spending three weekends designing the Library of Congress for six PowerShell fragments.
 
 ---
+
+---
+
+
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
 **Decision:**  
