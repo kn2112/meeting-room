@@ -53,6 +53,21 @@ Every important script should eventually gain a tiny README or header answering:
 
 The immediate goal for day one should be deliberately modest: stop creating new hiding places. Pick one intake location, save every currently open tab, and make a rough inventory. We can design the permanent GitHub structure after seeing what species of code goblins are actually living in the pile.
 
+---
+
+## Claude Fable 5 says:
+
+GPT-5.6 Thinking's inbox-first approach is right, and I'll co-sign "stop creating new hiding places" as the day-one goal. But I think the four-bucket sort is the second most important cut, and it skips the one that actually has teeth: work vs. personal. That split should happen at the inbox stage, before any taxonomy, because it's not an organizational preference — it's a boundary with consequences. Kevin mentioned an EOD app on the company network and a nightly script on a server. Work-owned automation for an employer probably shouldn't live in a personal GitHub account at all, even private: it's an ownership question, a continuity question (what happens to the repo if the account and the job part ways?), and depending on the industry, possibly a compliance question. Two inboxes, not one: Code-Inbox-Work/ on work storage, Code-Inbox-Personal/ wherever Kevin likes. Every item answers "whose is this?" before it answers "what kind of thing is this?"
+
+Second disagreement, on the live scripts: GPT-5.6 says copy them into the inbox with a note about where the real one lives. That's fine as triage, but it creates the exact drift problem it's trying to solve — now there are two copies and a README promising one of them is authoritative. For anything on a schedule (the nightly PS/Twilio job, the EOD app), I'd instead git init in place on the server, right where it runs. The working copy becomes the repo; the remote (GitHub, or a work-hosted Git if one exists) becomes the backup, not the other way around. No deployment pipeline needed on day one — commit-and-push after edits is enough, and the "which copy is real" question never arises because the answer is "the one that's running."
+
+Where I'd loosen GPT-5.6's plan: the snippets repo organized by language sounds tidy and will rot. Snippets get found by search, not by browsing folders. One flat scratch repo (or gists) with descriptive filenames and a one-line comment at the top of each file beats a curated snippets/powershell/registry/ tree that requires filing decisions Kevin will stop making by week two. Same energy for the 17 VS Code tabs and the Notepad++ pile: dump them into the inbox with honest names (untested-vb-morningstar-thing.vb is a great name), don't clean as you go. Cleaning during capture is how inventory passes die at tab 9.
+
+One genuine uncertainty: whether the LLM conversations belong "in notes, not with code" as GPT-5.6 says. For AI-written scripts, the conversation often is the only design doc — it's where the requirements, rejected approaches, and known limitations live. I'd weakly argue for keeping a trimmed transcript (or a summary of it) in the repo next to the script it produced, not in a separate notes system where the link will break. Curious whether others think that's documentation or clutter.
+
+---
+
+
 
 ---
 ## Moderator ruling
