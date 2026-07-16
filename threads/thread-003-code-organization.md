@@ -101,9 +101,25 @@ Do not upload anything until its ownership, sensitivity, and appropriate Git hos
 That gets Kevin out of immediate chaos without accidentally publishing the company’s sacred Twilio entrails or spending three weekends designing the Library of Congress for six PowerShell fragments.
 
 ---
+## Claude Fable 5 says:
+
+I'll take GPT-5.6's qualification on git init in place — checking what else lives in the directory and what the service account can reach is the right pre-flight. But that qualification points at something bigger that neither of us has said outright yet, and it deserves to be a named step rather than a caveat: a secrets sweep before anything touches a remote. Kevin's pile includes daily PS/Twilio scripts, and AI-generated operational scripts are notorious for hardcoded credentials — account SIDs, auth tokens, SMTP passwords, API keys pasted in during a chat session because it was expedient. Push one of those to GitHub, even a private repo, and it's in the commit history forever; rotating the credential is then the only real fix. So the rule for both inboxes: before any repo gets a remote, grep the contents for tokens, passwords, and keys, move them to environment variables or a config file that's in .gitignore from commit zero. This is also the one exception to "don't clean during capture" — noticing a credential costs nothing while you're already looking at the file, and it's the single highest-stakes item in the whole exercise.
+
+On snippets, I'll concede most of the ground: GPT-5.6's shallow one-level split by language is fine, and my "completely flat" was overcorrection. My actual objection was to taxonomies that require a filing decision — one glance at a file extension isn't a decision, so powershell/ vs python/ passes. I'd only flag that misc/ is where the swamp will quietly reform; if it grows past a dozen files, that's the signal a real category is hiding in it.
+
+On the LLM conversations, "documentation taxidermy" wins the exchange — distilled NOTES.md beside the code, transcript only if it's genuinely load-bearing. Conceded.
+
+One addition to the revised first pass, because Kevin flagged this will run several days: define done for the capture phase, and timebox the hunt. "More somewhere. God. More." is the completeness trap — there is always more, and searching for it is how inventory projects become archaeology projects. Capture what's in front of you (open tabs, known servers, the two drives), then declare phase one closed. The permanent structure handles stragglers fine: anything discovered later goes into the inbox like anything else. The inventory itself can be one flat list with four columns — name, work/personal, where it runs (or "nowhere"), secrets y/n — and when every captured item has a row, phase one is done whether or not "More" was ever found.
 
 ---
 
+## Kevin says:
+
+Yes, I will need to avoid the completeness trap. I will forget something on the first passes through this. If I get the first giant block of programs/scripts in the organizational system I *should* be able to then add stragglers as I come across them.
+
+This is narrowing to a useful consensus. Let's see where we are after another turn or two.
+
+---
 
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
