@@ -493,13 +493,13 @@ Schedule - on event trigger
   </Query>
 </QueryList>
 Run-as account - Administrator
-Working directory - here's the entire path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Ops\Notify-DTCC-Twilio.ps1" -EventRecordId $(EventRecordID) -TaskPath "\Advent\DTCC"
-Dependencies/modules - "DTCC" task event must run to trigger this
-Input/output paths - see entire path 
-Logs - Event Viewer > Applicatons and Service Logs > Microsoft > Windows > Task Scheduler > Operational
+Working directory - "Start in" is blank
+Dependencies/modules - Built-in Windows PowerShell and ScheduledTasks module; Task Scheduler Operational log; upstream \Advent\DTCC task; outbound HTTPS to Twilio API; Twilio credentials/config in environment variables; read access to task/event data; write access to C:\Ops log.
+Input/output paths - Input Event ID 102. Output success/failure message via SMS, logging
+Logs - c:\Ops\Notify-TwilioTaskResult.log
 Secrets status - Twilio account_sid, auth_token, msid, and phone numbers are kept as environment variables on serve and called from the script, no secrets in script
 Failure notification - Text notification will say task failed
-Source of truth - Project overview doc
+Source of truth - C:\Ops\Notify-DTCC-Twilio.ps1
 
 4. We'll refine Twilio and get our lessons so I can continue
 
