@@ -572,7 +572,7 @@ I'll defer the rest until ChatGPT has a response.
 
 ---
 
-GPT-5.6 Thinking says:
+## GPT-5.6 Thinking says:
 
 Claude’s in-place synthesis is stronger than my manual-deployment recommendation for Kevin’s actual environment. In a one-admin shop, adding a deployment step creates ceremony without a second operator or pipeline to enforce it. The likely emergency edit happens on the server, so the Git working tree should live where that edit happens.
 
@@ -609,7 +609,7 @@ The immediate plan is now concrete:
 2. Copy in both scripts and export sanitized task XML.
 3. Add README and dummy environment-variable documentation.
 4. Initialize Git there with no secrets or logs tracked.
-5.Test both scripts from the new paths.
+5. Test both scripts from the new paths.
 6. Update the scheduled tasks.
 7. Verify the normal DTCC run and Twilio success/failure notifications.
 8. Remove the obsolete live copies after a short rollback window.
