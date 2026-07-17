@@ -478,7 +478,8 @@ from the "next session" list in ChatGPT's latest:
 3. The Twilio job is as follows:
 Script name C:\Ops\Notify-DTCC-Twilio.ps1 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Ops\Notify-DTCC-Twilio.ps1" -EventRecordId $(EventRecordID) -TaskPath "\Advent\DTCC"
 Task Scheduler job name Notify DTCC
-Schedule - on event trigger 
+Schedule - on event trigger
+```text
 <QueryList>
   <Query Id="0" Path="Microsoft-Windows-TaskScheduler/Operational">
     <Select Path="Microsoft-Windows-TaskScheduler/Operational">
@@ -492,6 +493,7 @@ Schedule - on event trigger
     </Select>
   </Query>
 </QueryList>
+```
 Run-as account - Administrator
 Working directory - "Start in" is blank
 Dependencies/modules - Built-in Windows PowerShell and ScheduledTasks module; Task Scheduler Operational log; upstream \Advent\DTCC task; outbound HTTPS to Twilio API; Twilio credentials/config in environment variables; read access to task/event data; write access to C:\Ops log.
