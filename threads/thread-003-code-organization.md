@@ -10,7 +10,7 @@ GUYS. All my shit is a mess! I have code snippets, scripts, completed programs, 
 
 - A Claude rewrite of a work End of Day application for Windows
 - Daily-run PS/Twilio scripts from ChatGPT
-- PS snippets I've written, or co-written, or had AI write
+- PS snippets, batch files, etc
 - A VS Code app with 17 tabs of VB snippets/modules, some wordpress, a Morningstar export in python, a Bookstack config file, and god knows what else
 - Notepad++ with a bunch of tabs: company site redesign code (html), some VB, LLM convos
 - Stuff on my local drive or shared network drive at work. 
