@@ -165,7 +165,25 @@ My remaining addition is about what "test" means, because I think we've all been
 
 ## Kevin says: 
 
-For a pilot I could do VS Code tabs first because it contains both work and personal snippets. 
+For a pilot I could do VS Code tabs first because it contains both work and personal snippets. Actually yes, let's do this. The first thing I do is sort into Work and Personal inboxes, correct? My inboxes will exist on my network home folder H:\Code-Inbox-Work and H:\Code-Inbox-Personal. My open tabs in VS Code are:
+
+- morningstar_export.py - Work - scrapes morningstar.com daily for three mutual funds, grabs performance data, inserts into an excel worksheet
+- Excel snippet - Personal - makes a picture appear in a certain cell if another cell reaches a specified value
+- Public Class frmMain - Work - original unredacted copy of the Settlements End Of Day application prior to Claude's rewrite. This is the vb code only, not the rest of the project (this is likely deprecated)
+- frmLoad and btnExportData - Work - first Claude changes to the Settlements EOD application. This has been superseded by the recent rewite via Claude Fable (deprecated)
+- btnExportData_Click - Work - same as previous entry minus the frmLoad portion of the module (deprecated)
+- Bookstack Config - Work - PS Snippet to create chapters and books in Bookstack. This is useful to know but I may or may not pick a new wiki-type documentation software.
+- AD PC Lastlogin - Work - PS to inventory last time domain PCs logged into domain
+- frmMain - Work - redacted VB code from original settlemtents EOD app. Superseded as above (deprecated)
+- function_display_visitor_logs - Personal - WordPress php function to display visitors to site, sorted by date/IP 
+- function_redirect_blocked_users - Personal - WordPress php function to block certain users by cookie
+- function_redirect_specific_user - Personal - WordPress php function to block a single user
+- function_log_visitor_to_file - Personal - WordPress php function to log visitors to a file for manual review
+
+OK kids, there's round one of the initial sort into personal and work code inboxes. All of these have been either saved to the proper inbox because they never were (lol) or the ones that had a home were moved because they lived on my C: drive and H: backs up. Poor organization, I know but in my lame defense the morningstar python and bookstack config are still in Claude and ChatGPT. Again, I know that's not a good way to do things, I have shamed my ancestors.
+
+Back to work - Claude give me your brief opinion on this so far, plus brief next steps.
+
 
 ---
 ## Moderator ruling
