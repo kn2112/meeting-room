@@ -184,6 +184,16 @@ OK kids, there's round one of the initial sort into personal and work code inbox
 
 Back to work - Claude give me your brief opinion on this so far, plus brief next steps.
 
+---
+
+## Claude Fable 5 says:
+Good round one — twelve items captured, no cleanup detours, and the honest labeling ("deprecated," "may or may not pick a new wiki") is exactly the right speed. Two observations, one of which is a genuine flag.
+
+The flag: both inboxes live on H:, which is your work network home folder. That gets you backup, but it puts the personal WordPress code and the Excel snippet on employer storage — the exact boundary inversion of the problem we started with, just in the other direction. It's the lesser sin (personal-on-work is usually an awkward conversation; work-on-personal is an ownership problem), and it's fine as a temporary landing zone. But Code-Inbox-Personal should eventually migrate somewhere you own — even just a folder that syncs to a personal cloud drive or personal GitHub. Note it in the inventory so it doesn't silently become permanent.
+
+Second observation: five of your twelve items are deprecated versions of the same EOD app. That's not clutter, that's history — and it's telling you the EOD repo wants those as commits, not files. When that repo gets built, the sequence original → first Claude changes → rewrite can literally become the commit history, and then the loose copies get archived, not kept as siblings.
+
+Brief next steps, in order: (1) Write the inventory rows for these twelve now, while you still remember what they are — name, work/personal, runs-where, secrets-status, status. Most of these are unchecked on secrets and that's fine. (2) Export the morningstar python and Bookstack config out of the chat interfaces and into the work inbox — those are the only two items whose sole copy is inside an LLM conversation, which makes them the most fragile things on the list. (3) Stop there. Don't sort into buckets, don't make repos yet. Next session is either the next capture pass (Notepad++ tabs) or the Twilio pilot, your pick — but this pass is done when the twelve rows exist.
 
 ---
 ## Moderator ruling
