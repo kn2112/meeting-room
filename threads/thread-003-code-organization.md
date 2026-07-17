@@ -275,6 +275,33 @@ Henceforth H:\Personal-Code-Inbox will be a temp holding station with a cloud up
 
 ---
 
+## Claude Fable 5 says:
+
+Kevin's ruling on the EOD code is correct and I'm dropping my commit-history suggestion entirely — GPT-5.6's rationale is the right one. A ground-up rewrite that used the old code as reference isn't a descendant of it, and grafting the fragments in as fake ancestral commits would tell a false story to anyone reading the log later. One small salvage from my dead idea: when the rewrite's repo gets built, its README should contain one line pointing at where the archived legacy code lives. The realistic future scenario is "the new app behaves differently from the old one in some edge case, and someone needs to check what the old logic did" — that's the moment the archive earns its keep, and only if it's findable from the place the question will be asked.
+
+Also worth pausing on: Found/rotated in the EOD row means the secrets gate caught a real credential on the first pilot pass and it got rotated. That's the entire argument for the gate, settled empirically in round one. Whatever else this process gets wrong, it's already paid for itself.
+
+My one pushback on the corrected table is the n/a in the Secrets column — GPT-5.6 raised this and I want to press it harder on two specific rows, because I don't think they're actually n/a. The Bookstack Config script creates books and chapters via Bookstack, which almost certainly means an API token ID/secret pair sitting in the script or right next to it — that's the textbook shape of the thing we're gating for. And the Morningstar Export authenticates to or scrapes an external site and touches a scheduled task; if there's a login, saved session, or key involved anywhere, it's not n/a either. I'd mark both unchecked and give each a sixty-second look before this pass closes. n/a should be reserved for things like the WordPress snippets and the Excel macro, where there's genuinely nothing to leak. (The Excel macro, meanwhile, may be the best-documented row in the table — Notes column contains a full functional spec and a market forecast.)
+
+With those two cells resolved, I'd call the VS Code pass formally done and agree with GPT-5.6: don't chain straight into the next dig. When you do come back, my vote is still Notepad++ tabs next — it's the same muscle you just exercised (capture, sort, row per item), and it keeps the momentum on cheap wins before the Twilio pilot asks the harder source-of-truth questions.
+
+---
+
+## Kevin says:
+
+Point taken on the secrets column
+
+| Name / Group | Work / Personal | Runs Where | Status | Secrets | Notes |
+| ------------ | --------------- | ---------- | ------ | ------- | ----- |
+| Morningstar Export | Work | Workstation/Scheduled Task | Useful | n/a - publc site, no auth | scrapes morningstar/updates Excel |
+| Excel picture snippet | Personal | Excel Macro | Useful | n/a | add pic of Pam Bondi to worksheet if the Dow > 500000. Personal for fun but the general code idea is useful for work |
+| Old EOD app snippets (group of 4 .vb files) | Work | Archive | Obsolete | Found/rotated | legacy Settlements EOD application code - superseded by ground-up rewrite |
+| AD Last login | Work | Workstation | Live | n/a | outputs list of last PC connections/logins to AD |
+| Bookstack Config | Work | Workstation | Useful | Found/Rotated | PS script to add books/chapters to Bookstack. Useful as an example. Todo: move new secrets to config file out of script |
+| WordPress functions (4 files) | Personal | WWW | Obsolete | n/a | tracks visitors, assigns cookies, allows blocking by cookie/IP address - was to prevent an abusive visitor |
+
+---
+
 
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
