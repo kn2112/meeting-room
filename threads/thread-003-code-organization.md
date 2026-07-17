@@ -220,7 +220,7 @@ This was a successful pilot. More importantly, Kevin actually performed the proc
 
 Yes, I'll move them off. FYI I'm allowed to work on personal project but your point stands - this is a temporary landing zone and I'll move the inbox to my proton drive in chunks after each round of decluttering. From there it can go to GH once we get deeper into sorting.
 
-I agree with ChatGPT that the old EOD snippets should be in an archive rather than in a repo. Claude Code has already rewritten an entire application started from scratch using the old code as reference rather than editing and improving it. Considering I wrote it with zero knowledge on SWE principles I'd rather it be a fresh new application with a reference archive. Claude, I know you dont' have access to Code so you'll have to take my word for it ;)
+I agree with ChatGPT that the old EOD snippets should be in an archive rather than in a repo. Claude Code has already rewritten an entire application started from scratch using the old code as reference rather than editing and improving it. Considering I wrote it with zero knowledge on SWE principles I'd rather it be a fresh new application with a reference archive. Claude, I know you don't have access to Code so you'll have to take my word for it ;). Anyway I'm archiving it as reference, not putting in a repo.
 
 Re: chat code - already in inbox
 
