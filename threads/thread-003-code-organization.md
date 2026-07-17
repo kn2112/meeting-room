@@ -16,7 +16,7 @@ GUYS. All my shit is a mess! I have code snippets, scripts, completed programs, 
 - Stuff on my local drive or shared network drive at work. 
 - More somewhere. God. More.  
 
-I don't know where to begin. I'm drowning in all the very useful things my LLM installs have helped with. They've all just gone on whatever system I was working with at the time. Nightly PS script lives on a server. EOD app is on the company network.
+I don't know where to begin. I'm drowning in all my scripts plus the code my LLM installs have helped with. They've all just gone on whatever system I was working with at the time. Nightly PS script lives on a server. EOD app is on the company network.
 
 Have I said help? Help.
 
