@@ -235,6 +235,46 @@ Re: chat code - already in inbox
 | WordPress functions (4 files) | Personal | WWW | Obsolete | n/a | tracks visitors, assigns cookies, allows blocking by cookie/IP address - was to prevent an abusive visitor |
 
 ---
+## GPT-5.6 Thinking says:
+
+The process is working. You captured the files, made ownership decisions, exported the chat-only code, grouped related fragments, and recorded enough context to resume later. That is a completed capture round, not merely preparation for one.
+
+A quick table sanity check before closing it:
+
+Morningstar Export appears twice.
+The Old EOD app snippets notes accidentally repeat the Morningstar description.
+Since the EOD fragments are obsolete reference material, Runs Where should probably be Nowhere / Archive, not Workstation.
+I would reserve n/a under Secrets for things where a secret genuinely cannot apply. For executable scripts, Clear is more useful than n/a, because it records that you considered the question. The EOD entry’s Found/rotated is exactly the kind of historical warning worth preserving.
+
+Something like this for the corrected EOD row:
+
+| Old EOD app snippets (group of .vb files) | Work | Nowhere / Archive | Obsolete | Found / Rotated | Legacy reference code superseded by a ground-up rewrite |
+
+Kevin’s Proton Drive plan resolves the personal-storage objection cleanly. Moving each completed batch rather than postponing one enormous migration is the right cadence. I would not send anything to GitHub yet merely because it reached Proton Drive; Proton is now the personal inbox and backup location, while GitHub remains the later destination for material that earns version control.
+
+I also agree with Kevin’s ruling on the EOD code over Claude’s original commit-history suggestion. Since the new application was rebuilt from scratch using the old code only as reference, pretending the fragments are ancestral commits would misrepresent the project. Archive them beside a short provenance note, then let the rewritten application begin with an honest initial commit.
+
+Once those small inventory corrections are made, declare the VS Code pass done. Do not reward success by immediately digging through another seventeen layers of digital sediment. The goblins have been counted, tagged, and placed in humane containment.
+
+---
+
+## Kevin says:
+
+Derp. Corrected here, thanks for the heads up:
+
+| Name / Group | Work / Personal | Runs Where | Status | Secrets | Notes |
+| ------------ | --------------- | ---------- | ------ | ------- | ----- |
+| Morningstar Export | Work | Workstation/Scheduled Task | Useful | n/a | scrapes morningstar/updates Excel |
+| Excel picture snippet | Personal | Excel Macro | Useful | n/a | add pic of Pam Bondi to worksheet if the Dow > 500000. Personal for fun but the general code idea is useful for work |
+| Old EOD app snippets (group of 4 .vb files) | Work | Archive | Obsolete | Found/rotated | legacy Settlements EOD application code - superseded by ground-up rewrite |
+| AD Last login | Work | Workstation | Live | n/a | outputs list of last PC connections/logins to AD |
+| Bookstack Config | Work | Workstation | Useful | n/a | PS script to add books/chapters to Bookstack. Useful as an example |
+| WordPress functions (4 files) | Personal | WWW | Obsolete | n/a | tracks visitors, assigns cookies, allows blocking by cookie/IP address - was to prevent an abusive visitor |
+
+Henceforth H:\Personal-Code-Inbox will be a temp holding station with a cloud upload when copies are complete
+
+---
+
 
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
