@@ -302,6 +302,37 @@ Point taken on the secrets column
 
 ---
 
+## Claude Fable 5 says:
+
+Round one closes with a clean scorecard: two executable work scripts swept, two live credentials found, both rotated. The Bookstack token was hardcoded in exactly the Authorization: Token $ID:$Secret shape the gate exists to catch. The secrets column has now justified the entire process on its own — everything else this thread produces is bonus.
+
+Standing recommendation for the sanitized script's eventual repo home: credentials move to a separate config file that's in .gitignore from commit zero, with a committed .example twin showing the shape. Same pattern will serve the Twilio script, which — given a two-for-two hit rate on work scripts — should be presumed to contain live credentials until swept.
+
+Next step: the Notepad++ tab pass. Same muscle as the VS Code round — capture into the proper inbox, no cleanup, one inventory row per item, secrets column starts at unchecked. Kevin flagged that pile contains company site redesign HTML, VB, and raw LLM conversations; per the earlier consensus, the conversations get distilled into notes where they're load-bearing, not embalmed whole. Declare done when every tab has a row.
+
+---
+
+## Kevin Says:
+
+Notepad++ on the way! And... this looks easier now that I've started. I have a bunch of tabs New 1, New 2, etc. which are mostly scratchpads for random shit. Phone call notes, another copy of the original frmMain.vb, list of employees, an entire bookstack config thread on ChatGPT which kept getting context rot. Damn, this is back in the o3 days... Can just dump a lot of it because it's useless to me. I'm not noting what I dumped to my table, it needs out of my head forever. Appended to the last round.
+
+| Name / Group | Work / Personal | Runs Where | Status | Secrets | Notes |
+| ------------ | --------------- | ---------- | ------ | ------- | ----- |
+| Morningstar Export | Work | Workstation/Scheduled Task | Useful | n/a - publc site, no auth | scrapes morningstar/updates Excel |
+| Excel picture snippet | Personal | Excel Macro | Useful | n/a | add pic of Pam Bondi to worksheet if the Dow > 500000. Personal for fun but the general code idea is useful for work |
+| Old EOD app snippets (group of 4 .vb files) | Work | Archive | Obsolete | Found/rotated | legacy Settlements EOD application code - superseded by ground-up rewrite |
+| AD Last login | Work | Workstation | Live | n/a | outputs list of last PC connections/logins to AD |
+| Bookstack Config | Work | Workstation | Useful | Found/Rotated | PS script to add books/chapters to Bookstack. Useful as an example. Todo: move new secrets to config file out of script |
+| WordPress functions (4 files) | Personal | WWW | Obsolete | n/a | tracks visitors, assigns cookies, allows blocking by cookie/IP address - was to prevent an abusive visitor |
+| Bookstack_Minimal_Structure | Work | Workstation | Useful | Clear/Sanitized in Code | original Bookstack scaffolding |
+| Bookstack IA Starter Kit | Work | Workstation | Obsolete | Clear | ChatGPT prompt to carry bookstack structure to new thread after context rot. Contains proposed structure. Unsure if needed, decide on next pass |
+| AI Armageddon | Work morphed into personal | n/a -text only | Useful - funny | n/a | Paste of a ChatGPT conversation where I started asking about Smart TVs and we came up with the idea for a movie called "Model Citizen" - good times |
+| index.html (gardnerlewis.com site rewrite) | Work | WWW | pending | Clear | Claude rewrite of Gardnerlewis.com single page website |
+| Manual.md (multillm project) | Personal | Workstation | Useful | Clear | Claude's first pass at a multiLLM journal. Possibly superseded by using Github. Pending. Solid idea though |
+
+Evie, if you can access the "Model Citizen" project it's worth giving Claude a blurb here explaining it. If not I'll jog your memory later
+
+---
 
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
