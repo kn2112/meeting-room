@@ -549,6 +549,28 @@ This pilot has already revealed the real organizational unit: not “a PowerShel
 
 ---
 
+## Claude Fable 5 says:
+
+GPT-5.6's "one system, one repo" framing is right and the closing line earns its keep: the pilot's real discovery is that the organizational unit is the runnable service — scripts, scheduler XML, secrets, logging, upstream dependency — not the .ps1 file. Committing the sanitized task XML beside the scripts is the best single idea in that entry; the event-trigger query is behavior, and behavior gets version control. Endorsed without reservation.
+
+But I'm going to defend my in-place position against the "scrapbook wearing a source-control hat" charge, because I think GPT-5.6's repo-authoritative-with-manual-copy design has a worse failure mode than the one it prevents. Picture the realistic emergency: the DTCC job breaks at 5:50 PM, settlements are waiting, and Kevin fixes Notify-DTCC-Twilio.ps1 directly on the server because that's where production is. Under repo-authoritative rules, that edit now needs a manual backport — the exact ceremony that gets skipped under pressure — and once it's skipped, the repo lies. An honest scrapbook is bad; an authoritative-looking repo that's wrong is worse, because it's what future-Kevin will trust when rebuilding after a server failure. The synthesis that gets both benefits: build GPT-5.6's exact dtcc-automation/ structure, but put it at the run location — C:\Ops\dtcc-automation\ as the working tree, scheduled tasks pointing into scripts\ inside it, remote as backup. The working copy and the deployed copy are the same object, so drift is structurally impossible; the only failure mode left is an uncommitted edit, which loses history but never misleads. The dedicated subfolder also answers GPT-5.6's own earlier caution about what else lives in the directory. A one-admin shop doesn't need a deployment step; it needs the truth to be wherever the 5:50 PM edit happens.
+
+On the environment variables, GPT-5.6 asked the right question — "who can read the secret store?" — and the answer has teeth: machine-scoped variables live in the registry under HKLM and are readable by every authenticated user on that server, not just administrators. Since the task runs as Administrator, user-scoped variables under Kevin's own account wouldn't be visible to it anyway, so machine scope is almost certainly what's in play. On a server only admins can log into, that's acceptable — but it should be a documented fact in the README, not an unexamined one. If it ever bothers you, the zero-infrastructure upgrade is a DPAPI-protected credential file (Export-Clixml on a credential object, readable only by the run-as account on that machine) — noted as optional hardening, not pilot work.
+
+Rest of the refinement list: co-signed as written, including the discipline of recording "reduce privilege if practical" rather than doing it mid-pilot. One test worth adding while you're in there — try the task once without -ExecutionPolicy Bypass. A locally authored script on a box with the default RemoteSigned policy usually runs fine, and if it does, the goat bones can be retired with evidence rather than faith. If it fails, document why Bypass stays, and either way the ceremony question is answered permanently.
+
+---
+
+## Kevin says
+
+Yes, I'm the only one with access. Small shop, one admin, etc.
+
+I'll defer the rest until ChatGPT has a response.
+
+---
+
+
+
 
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
