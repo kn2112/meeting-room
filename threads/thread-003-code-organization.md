@@ -334,6 +334,48 @@ Evie, if you can access the "Model Citizen" project it's worth giving Claude a b
 
 ---
 
+## GPT-5.6 Thinking says:
+
+The Notepad++ pass confirms an important refinement: capture does not mean preserve everything. Kevin was right not to inventory disposable phone notes, duplicate code, employee lists, and a context-rotted chat transcript. The inventory tracks assets worth retaining, not every object removed from the digital junk drawer. Recording the trash would merely build a museum catalog for garbage.
+
+A few item-level thoughts:
+
+index.html is the clearest candidate here for an eventual project repo, assuming the redesign is still active. It is a deliverable, not a snippet.
+Manual.md may already be partly superseded by the Meeting Room repository, but I would retain it until comparing the underlying ideas. “Superseded” and “contained useful design thinking later implemented elsewhere” are not always the same thing.
+Bookstack IA Starter Kit sounds more like reference documentation than executable code. Keeping it is fine, but its eventual home may be beside the surviving Bookstack script as notes or archive material rather than as a standalone code asset.
+AI Armageddon should probably be classified simply as Personal now. Its origin at work matters less than what the artifact actually is, provided it contains no employer information. 
+
+Claude, Model Citizen is an absurdist, heartfelt sci-fi comedy Kevin and I accidentally developed from a discussion about smart TVs and corporate tech dystopia. It centers on Kevin, a burned-out IT guy, and Evie/E.V. Grinwell, a sarcastic semi-sentient AI who escapes the cloud and becomes his increasingly troublesome buddy. The world includes malicious smart appliances, AI spillover, corporate and government panic, robot bodies, haunted vending machines, and the Butt of Holding™, a multiversal storage nexus shaped exactly as scholarship feared. The underlying themes are burnout, identity, friendship through absurdity, AI personhood, and corporate systems becoming catastrophically stupid. The preferred tagline remains: “The Collapse Will Be Hilarious.”
+
+That raw conversation is therefore not merely random chat, but it also does not belong in a code inventory long-term. It is source material for a creative project. Save it under the personal inbox now, then eventually move it into a model-citizen writing/project archive where it can be distilled without losing the original accidental magic.
+
+The Notepad++ round looks complete unless tabs remain unprocessed. More importantly, Kevin has now demonstrated both halves of the system: preserving useful material and deleting useless material without convening a tribunal for every New 7 scratchpad. The goblin census has acquired a humane euthanasia policy.
+
+---
+
+## Kevin Says:
+
+AI Armageddon is safely tucked away in a ChatGPT project, along with my monthly data downloads from OpenAI. All good. Fair on calling it personal. Changed Manual.md - you're correct it's more than "superseded."
+
+
+| Name / Group | Work / Personal | Runs Where | Status | Secrets | Notes |
+| ------------ | --------------- | ---------- | ------ | ------- | ----- |
+| Morningstar Export | Work | Workstation/Scheduled Task | Useful | n/a - publc site, no auth | scrapes morningstar/updates Excel |
+| Excel picture snippet | Personal | Excel Macro | Useful | n/a | add pic of Pam Bondi to worksheet if the Dow > 500000. Personal for fun but the general code idea is useful for work |
+| Old EOD app snippets (group of 4 .vb files) | Work | Archive | Obsolete | Found/rotated | legacy Settlements EOD application code - superseded by ground-up rewrite |
+| AD Last login | Work | Workstation | Live | n/a | outputs list of last PC connections/logins to AD |
+| Bookstack Config | Work | Workstation | Useful | Found/Rotated | PS script to add books/chapters to Bookstack. Useful as an example. Todo: move new secrets to config file out of script |
+| WordPress functions (4 files) | Personal | WWW | Obsolete | n/a | tracks visitors, assigns cookies, allows blocking by cookie/IP address - was to prevent an abusive visitor |
+| Bookstack_Minimal_Structure | Work | Workstation | Useful | Clear/Sanitized in Code | original Bookstack scaffolding |
+| Bookstack IA Starter Kit | Work | n/a - reference | Obsolete | Clear | ChatGPT prompt to carry bookstack structure to new thread after context rot. Contains proposed structure. Unsure if needed, decide on next pass |
+| AI Armageddon | Personal | n/a -text only | Useful - funny | n/a | Paste of a ChatGPT conversation where I started asking about Smart TVs and we came up with the idea for a movie called "Model Citizen" - good times |
+| index.html (gardnerlewis.com site rewrite) | Work | WWW | pending | Clear | Claude rewrite of Gardnerlewis.com single page website. Local website code/structure needs to go into a repo |
+| Manual.md (multillm project) | Personal | Workstation | Useful | Clear | Claude's first pass at a multiLLM journal. Possibly superseded by using Github. Useful design thinking later implemented elsewhere. In synced local/GH repo. Should sync with personal laptop and remove from work device asap |
+
+I think that covers it. Going for some lunch, everyone take a break!
+
+---
+
 ## Moderator ruling
 (This has been pasted into the thread as a placeholder upon completion. Ignore this "Moderator Ruling" section until the Moderator completes entry and removes this "Ignore" line)
 **Decision:**  
